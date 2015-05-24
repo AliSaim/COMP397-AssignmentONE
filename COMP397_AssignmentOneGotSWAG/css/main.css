@@ -19,7 +19,7 @@
     transition: background 1s ;
 }
 
-    .impress-enabled .step.active { opacity: 1;}
+.impress-enabled .step.active { opacity: 1;}
 .silde {
     display: block;
     width: 700px;
@@ -32,4 +32,37 @@
     border-radius: 5px;
     font-family: "Open Sans", Arial, sans-serif;  /*USE A DIFFERNT FONT FAMILY*/
     font-size: 30px;
+}
+
+/*Styling for slide paragraphs*/
+.slide p {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    line-height: 45px;
+}
+
+/*Styling for slide links*/
+.slide a, .slide a:visited{
+    color: red;
+    text-decoration: none;
+    background-color: #abc;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #cde;
+}
+
+.slide a:hover, .slide a:active {
+    background-color: #cde;
+}
+
+/*Stlying for slide text area*/
+.slide .slide-text{
+    height: 450px;
+}
+
+/*Stlying for menu section of each slide*/
+div.menu {
+    border-top: 2px solid black;
+    padding-top: 25px;
+    text-align: center;
 }
