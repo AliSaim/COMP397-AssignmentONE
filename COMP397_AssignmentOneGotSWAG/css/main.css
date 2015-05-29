@@ -34,14 +34,14 @@
     text-shadow: 0 2px 2px rgba(0,0,0,0.1);
     border-radius: 5px;
     font-family: "Open Sans", Arial, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 /* styling for slide paragraphs */
 .slide p {
     margin-top: 15px;
     margin-bottom: 30px;
-    line-height: 45px;
+    line-height: 20px;
 }
 
 .slide a, .slide a:visited {
@@ -67,4 +67,8 @@ div.menu {
     border-top: 2px solid black;
     padding-top: 25px;
     text-align: center;
+}
+.p {
+    font-size: 20px;
+    color: green;
 }

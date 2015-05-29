@@ -59,6 +59,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\42.jpg" />
+    <Content Include="assets\images\classroom.jpg" />
+    <Content Include="assets\images\illuminati.png" />
+    <Content Include="assets\images\onehandUp.jpg" />
+    <Content Include="assets\images\twohandsUp.png" />
+    <Content Include="assets\images\yell.jpg" />
+    <Content Include="assets\images\yolo.jpg" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -80,7 +87,6 @@
   <ItemGroup>
     <Folder Include="assets\audio\" />
     <Folder Include="assets\fonts\" />
-    <Folder Include="assets\images\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\game.ts" />
