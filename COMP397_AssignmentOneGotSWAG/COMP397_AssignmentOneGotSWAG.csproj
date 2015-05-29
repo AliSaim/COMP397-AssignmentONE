@@ -60,9 +60,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\images\42.jpg" />
+    <Content Include="assets\images\bullyAndTeacher.jpg" />
     <Content Include="assets\images\classroom.jpg" />
     <Content Include="assets\images\illuminati.png" />
+    <Content Include="assets\images\inOneOutOtherOne.png" />
     <Content Include="assets\images\onehandUp.jpg" />
+    <Content Include="assets\images\passout.jpg" />
+    <Content Include="assets\images\sadKid.jpg" />
+    <Content Include="assets\images\sleep.jpg" />
+    <Content Include="assets\images\stealPencil.jpg" />
+    <Content Include="assets\images\tableAndBoss.jpg" />
+    <Content Include="assets\images\takeTestPaper.png" />
     <Content Include="assets\images\twohandsUp.png" />
     <Content Include="assets\images\yell.jpg" />
     <Content Include="assets\images\yolo.jpg" />
