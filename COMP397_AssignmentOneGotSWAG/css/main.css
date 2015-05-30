@@ -1,4 +1,12 @@
-﻿body {
+﻿/*  <!-- Author: Ali Saim -->
+    <!-- Student ID: 300 759 480 -->
+    <!-- Course: COMP397 Section: 001 -->
+    <!-- App: COMP397_AssignmentOneGotSWAG -->
+    <!-- Date: May 29th 2015 -->
+    <!-- Last Modified: May 29th 2015 -->
+    <!-- Program Description: This is assignment one for COMP397 that I have programed. 
+        This assignment we are making a simple game with impressJS -->*/
+body {
     background-image: url("/assets/images/background.jpg");
     opacity: 0.9;
 }
@@ -62,12 +70,8 @@ div.menu {
     padding-top: 25px;
     text-align: center;
 }
-.p {
-    font-size: 20px;
-    color: green;
-}
 
-/*The user options formating*/
+/*The user decision options formating*/
 .options {
     border:dashed 3px black;
     padding-top: 10px;
@@ -79,6 +83,7 @@ div.menu {
     background:         linear-gradient(90deg, #556270 10%, #FF6B6B 90%); /* W3C */
 }
 
+/*Formating the win or lose text in the outcome screens*/
 .winOrLose {
     padding-top: 10px;
     text-align: center;

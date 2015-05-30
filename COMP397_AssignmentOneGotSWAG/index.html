@@ -1,5 +1,13 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+    <!-- Author: Ali Saim -->
+    <!-- Student ID: 300 759 480 -->
+    <!-- Course: COMP397 Section: 001 -->
+    <!-- App: COMP397_AssignmentOneGotSWAG -->
+    <!-- Date: May 29th 2015 -->
+    <!-- Description: This is assignment one for COMP397 that I have programed. 
+        This assignment we are making a simple game with impressJS -->
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,12 +20,15 @@
     <div id="impress">
         <!-- FIRST SLIDE -->
         <div id="1" class="step slide">
-            <div class="slide-text">                    <!--This slide is good -->
-                <p>You are in a class room(somehow), doing a really super duper hard test. You have no idea what this test is for. You don't even know what subjects this test covers. </p>
-                <img style="margin:0px auto;display:block" src="/assets/images/classroom.jpg" >
+            <div class="slide-text">                    
+                <p>You are in a class room (somehow), doing a really super-duper hard test. You have no idea what this test is for. You don't even know what subjects this test covers. </p>
+                <img style="margin:0px auto;display:block" src="/assets/images/classroom.jpg" > 
                 <P>You look at the first question....and you don't know what the answer is... You...</P>
                
-                <div class="options">
+
+                <!-- Player decisions/options for silde 1 -->
+                <!-- class "options" is used in main.CSS to formate this part of the game to look nice-->
+                <div class="options">   
                     <p><a href="#2">Raise a hand to ask a question?</a></p>
                     <p><a href="#3">Yolo guess it</a></p>
                 </div>
@@ -31,11 +42,13 @@
                 <p>You chose to raise your hand for help...</p>
                 
                 <img style="margin:0px auto;display:block" src="/assets/images/onehandUp.jpg" >
-                <p>The teacher saw that you have your hand up, but did not come over to your desk...He just ignored you</p>
+                <p>The teacher saw that you have your hand up, but the douchebag did not come over to your desk...He just ignored you</p>
 
+                <!-- Player decisions/options for silde 2 -->
+                <!-- class "options" is used in main.CSS to formate this part of the game to look nice-->
                 <div class="options">
                     <p><a href="#4">Raise your other hand also (both hands up)</a></p>
-                    <p><a href="#5">Scream the teacher's first name</a></p>
+                    <p><a href="#5">SCREAM the teacher's first namee</a></p>
                 </div>
 
                 <div class="menu"><a href="#1">START OVER</a></div>
@@ -46,15 +59,19 @@
         <!-- THIRD SLIDE -->
         <div id="3" class="step slide" data-x="-1500">  <!--This slide is good -->
             <div class="slide-text">
-                <p>You choose to yolo mode this question<br><br>
+                <p>You choose to yolo mode this question.<br><br>
                 <img style="margin:0px auto;display:block" src="/assets/images/yolo.jpg" >
                 The question is:
-                    There is a 4 tailed dragon, the fource of gravity is 9.8g. Tom has dragon + 3.4 cats. 
-                    One of the cat is 35lbs, the other one is green woth a fork neckless.
-                    What is the answer to the universe?<br><br>The answer of the universe is...</p>
+                    There is a 4 tailed dragon, the force of gravity is 9.8g.
+                    Tom has 4 dragons + 3.4 cats. One of the cat is 35 lbs; the
+                    other one is green with a fork necklace. (Yes, ‘fork necklace’) 
+                    What is the answer to the universe? The answer of the universe is...</p>
 
+
+                <!-- Player decisions/options for silde 3 -->
+                <!-- class "options" is used in main.CSS to formate this part of the game to look nice-->
                 <div class="options">
-                    <p><a href="#6">Illuminati lol</a></p>
+                    <p><a href="#6">Illuminati, lol</a></p>
                     <p><a href="#7">42</a></p>
                 </div>
              
@@ -66,12 +83,14 @@
         <!-- FOURTH SLIDE -->
         <div id="4" class="step slide" data-x="2500">   <!--This slide is good -->
             <div class="slide-text">
-                <p>You choose to raise both hands up hoping to grabe his attention. The teacher sees that you have both hands up so he slowly walks over to your desk.
+                <p>You choose to raise both hands up hoping to grab his attention. The teacher sees that you have both hands up so he slowly walks over to your desk.
                 </p>
                 <img style="margin:0px auto;display:block" src="/assets/images/twohandsUp.png" >
                 <p>It took him 5 minutes to walk from his desk to your desk. In an angry voice he says..., "what do you want kid?"<br>
                 You...</p>
 
+                <!-- Player decisions/options for silde 4 -->
+                <!-- class "options" is used in main.CSS to formate this part of the game to look nice-->
                 <div class="options">
                      <p><a href="#10">Ask him to explain the question</a></p>                                <!--OUTCOME 1 LOSE -->                   
                      <p><a href="#20">SLAM both hands on the desk and walk out the room like a BOSS</a></p>         <!--OUTCOME 2 WIN -->      
@@ -85,11 +104,14 @@
         <!-- FIFTH SLIDE -->
         <div id="5" class="step slide" data-x="-2500">  <!--This slide is good -->
             <div class="slide-text">
-                <p>You choose to scream the teacher's first by his first name</p>
+                <p>You choose to scream the teacher's first by his first name.</p>
                 <img style="margin:0px auto;display:block" src="/assets/images/yell.jpg" >
                 <p></p>
                 <p>The teacher walks over to your desk... You...</p>
 
+
+                <!-- Player decisions/options for silde 5 -->
+                <!-- class "options" is used in main.CSS to formate this part of the game to look nice-->
                 <div class="options">
                      <p><a href="#30">Ask for answer because why not</a> </p>          <!--OUTCOME 3 LOSE -->       
                      <p><a href="#40">Tell him the test is 2 DAMN hard</a> </p>        <!--OUTCOME 4 LOSE -->       
@@ -103,14 +125,17 @@
         <!-- SIXTH SLIDE -->
         <div id="6" class="step slide" data-x="1000">  <!--This slide is good -->
             <div class="slide-text">
-                <p>You think "illuminati" is the answer to the universe...But you are only 3.41% sure of your answer.
-                    Then the teacher tells everyone in the class that if you don't get 100% in this test you will fail.</p>
+                <p>You think "illuminati" is the answer to the universe...But you are only 3.41% 
+                    sure of your answer. Then the teacher tells everyone in the class that if you
+                     don't get 100% in this test you will fail.</p>
                 <img style="margin:0px auto;display:block" src="/assets/images/illuminati.png" >
                 <p>You...</p>
 
+                <!-- Player decisions/options for silde 6 -->
+                <!-- class "options" is used in main.CSS to formate this part of the game to look nice-->
                 <div class="options">
-                    <p><a href="#50">say "Duck It" and choose the "illuminati" and move to the next question</a></p>      <!--OUTCOME 5 LOSE -->       
-                    <p><a href="#60">take a QUCIK 20 minute nap.</a></p>      <!--OUTCOME 6 LOSE -->       
+                    <p><a href="#50">Say "Duck It" and choose the "illuminati" and move to the next question.</a></p>      <!--OUTCOME 5 LOSE -->       
+                    <p><a href="#60">Take a QUCIK 20 minute nap.</a></p>      <!--OUTCOME 6 LOSE -->       
                 </div>
              
                 <div class="menu"><a href="#1">START OVER</a></div>
@@ -121,13 +146,16 @@
         <!-- SEVENTH SLIDE -->
         <div id="7" class="step slide" data-x="3500">   <!--This slide is good -->
             <div class="slide-text">
-                <p>You choose 42 as the answer of the universe, but you don't have a pen nor a pencil to circle the correct answer</p>
+                <p>You choose 42 as the answer of the universe, but you don't have a pen or a pencil to circle the correct answer.</p>
                  <img style="margin:0px auto;display:block" src="/assets/images/42.jpg" >
                 <p>You...</p>
 
+
+                <!-- Player decisions/options for silde 7 -->
+                <!-- class "options" is used in main.CSS to formate this part of the game to look nice-->
                 <div class="options">
-                    <p><a href="#70">use your BLOOD as ink to file in your answer.</a></p>        <!--OUTCOME 7 LOSE -->       
-                    <p><a href="#80">try to  Ninja steal someone's pen or pencil.</a></p>         <!--OUTCOME 8 LOSE -->     
+                    <p><a href="#70">Use your BLOOD as ink to write your answer.</a></p>        <!--OUTCOME 7 LOSE -->       
+                    <p><a href="#80">Try to Ninja steal someone's pen or pencil.</a></p>         <!--OUTCOME 8 LOSE -->     
                 </div>
                
                 <div class="menu"><a href="#1">START OVER</a></div>
@@ -150,11 +178,14 @@
         <div id="10" class="step slide" data-x="4000">
             <div class="slide-text">
                 <!-- <p>OUTCOME 1</p> -->
-                <p>You asked him to explain the question</p>
-                <p>The teacher starts to explain the question, but you just remebered how much you hate his voice and anything he says goes into one ears and come out the other one right way. </p>   
+                <p>You asked him to explain the question.</p>
+                <p>The teacher starts to explain the question, but you just remembered how much you hate his voice and anything he says goes into one ears and come out the other one right way. </p>   
                      <img style="margin:0px auto;display:block" src="/assets/images/inOneOutOtherOne.png">
                      <img style="margin:0px auto;display:block" src="/assets/images/f.jpg" >
                  
+
+                <!-- Game outcome 1 -->
+                <!-- class "winOrLose" is used in main.CSS to formate this part of the game to look nice-->
                 <div class="winOrLose"><p>LOSER</p></div>
               
                 <div class="menu"><a href="#1">START OVER</a></div>
@@ -166,9 +197,12 @@
         <div id="20" class="step slide" data-x="-4000">
             <div class="slide-text">
                 <!-- <p>OUTCOME 2</p> -->
-                <p>THE teacher gave you 100% because that was super cool. Your power level is over 9000!!!</p>
+                <p>The teacher gave you 100% because that was super cool. Your power level is over 9000!!!</p>
                  <img style="margin:0px auto;display:block" src="/assets/images/tableAndBoss.jpg" >   
 
+                
+                <!-- Game outcome 2 -->
+                <!-- class "winOrLose" is used in main.CSS to formate this part of the game to look nice-->
                  <div class="winOrLose"><p>WINNER!!!</p></div>
 
                 <div class="menu"><a href="#1">START OVER</a></div>
@@ -180,10 +214,13 @@
         <div id="30" class="step slide" data-x="5000">
             <div class="slide-text">
                <!-- <p>OUTCOME 3</p> -->
-                <p>You ask him for the answer. HE gets angry because you asked a stupid question. The teacher takes your paper and gives you a mark of zero for asking a supid question.</p>   
+                 <p>You ask him for the answer. He gets angry because you asked a stupid question. The teacher takes your paper and gives you a mark of zero for asking a stupid question.</p>   
                  <img style="margin:0px auto;display:block" src="/assets/images/takeTestPaper.png" >
                  <img style="margin:0px auto;display:block" src="/assets/images/f.jpg" >   
 
+
+                <!-- Game outcome 3 -->
+                <!-- class "winOrLose" is used in main.CSS to formate this part of the game to look nice-->
                <div class="winOrLose"><p>LOSER</p></div>
 
                 <div class="menu"><a href="#1">START OVER</a></div>
@@ -201,6 +238,9 @@
                 <img style="margin:0px auto;display:block" src="/assets/images/f.jpg" >   
                 <p>The teacher failed you</p>
 
+
+                <!-- Game outcome 5 -->
+                <!-- class "winOrLose" is used in main.CSS to formate this part of the game to look nice-->
                 <div class="winOrLose"> <p>LOSER</p> </div>
 
                 <div class="menu"><a href="#1">START OVER</a></div>
@@ -212,10 +252,13 @@
         <div id="50" class="step slide" data-x="6000">
             <div class="slide-text">
                 <!--<p>OUTCOME 5</p>-->
-                <p>NO such things as illuminati in the universy. Grow up kid, this is not a magical land that you see in movies.</p>   
+                <p>No such things as illuminati in the universe. Grow up kid; this is not a magical land that you see in movies.</p>   
                  <img style="margin:0px auto;display:block" src="/assets/images/sadKid.jpg" >   
                  <img style="margin:0px auto;display:block" src="/assets/images/f.jpg" >
 
+
+                <!-- Game outcome 5 -->
+                <!-- class "winOrLose" is used in main.CSS to formate this part of the game to look nice-->
                 <div class="winOrLose"><p>LOSER</p></div>
 
                 <div class="menu"><a href="#1">START OVER</a></div>
@@ -228,9 +271,12 @@
             <div class="slide-text">
                 <!--<p>OUTCOME 6</p>-->
                  <img style="margin:0px auto;display:block" src="/assets/images/sleep.jpg" > 
-                 <p>You chose to take a 20 minute nap hoping that you remeber the answer because you really need the 100%<br>It wasn't a quick nap, you went to sleep for 3.8 lighyears. You test paper is on your desk with a big fat red "F" grade</p> 
+                 <p>You chose to take a 20 minute nap hoping that you remember  the answer because you really need the 100%<br>It wasn't a quick nap, you went to sleep for 3.8 light-years. You test paper is on your desk with a big fat red "F" grade.</p> 
                  <img style="margin:0px auto;display:block" src="/assets/images/f.jpg" >
 
+
+                <!-- Game outcome 6 -->
+                <!-- class "winOrLose" is used in main.CSS to formate this part of the game to look nice-->
                 <div class="winOrLose"><p>LOSER</p></div>
 
                 <div class="menu"><a href="#1">START OVER</a></div>
@@ -242,10 +288,13 @@
         <div id="70" class="step slide" data-x="7000">
             <div class="slide-text">
                 <!-- <p>OUTCOME 7</p>  -->
-                <p>You passed out after seeing your blood. NOOB</p>
+                <p>You passed out after seeing your blood. NOOB. </p>
                 <img style="margin:0px auto;display:block" src="/assets/images/passout.jpg" > 
                 <img style="margin:0px auto;display:block" src="/assets/images/f.jpg" >
 
+
+                <!-- Game outcome 7 -->
+                <!-- class "winOrLose" is used in main.CSS to formate this part of the game to look nice-->
                <div class="winOrLose"><p>LOSER</p></div>
 
                 <div class="menu"><a href="#1">PLAY AGAIN</a></div>
@@ -257,10 +306,13 @@
         <div id="80" class="step slide" data-x="-70000">
             <div class="slide-text">
                 <!-- <p>OUTCOME 8</p> -->
-                <p>While trying to steal your friend's pencil, the teacher failed you because he though you where cheating</p>   
+                <p>While trying to steal your friend's pencil, the teacher failed you because he though you where cheating and he failed you.</p>   
                 <img style="margin:0px auto;display:block" src="/assets/images/stealPencil.jpg" > 
                 <img style="margin:0px auto;display:block" src="/assets/images/f.jpg" >
 
+
+                <!-- Game outcome 8 -->
+                <!-- class "winOrLose" is used in main.CSS to formate this part of the game to look nice-->
                 <div class="winOrLose"><p>LOSER</p></div>
 
                 <div class="menu"><a href="#1">PLAY AGAIN</a></div>
